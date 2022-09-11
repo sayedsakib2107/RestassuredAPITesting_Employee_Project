@@ -1,0 +1,86 @@
+2022-09-10 00:49:31 INFO  EmployeesRestAPI:32 - *********Started TC001_Get_All_Employees **********
+2022-09-10 00:49:34 INFO  EmployeesRestAPI:116 - ***********  Checking Content Lenght**********
+2022-09-10 00:49:34 INFO  EmployeesRestAPI:119 - Content Length is==>null
+2022-09-10 00:49:34 INFO  EmployeesRestAPI:87 - ***********  Checking Content Type **********
+2022-09-10 00:49:34 INFO  EmployeesRestAPI:90 - Content type is ==>text/html; charset=UTF-8
+2022-09-10 00:49:34 INFO  EmployeesRestAPI:130 - ***********  Checking Cookies **********
+2022-09-10 00:49:34 INFO  EmployeesRestAPI:63 - ***********  Checking Response Time **********
+2022-09-10 00:49:34 INFO  EmployeesRestAPI:66 - Response Time is ==>1438
+2022-09-10 00:49:34 INFO  EmployeesRestAPI:43 - ***********  Checking Respose Body **********
+2022-09-10 00:49:34 INFO  EmployeesRestAPI:46 - Response Body==><!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+2022-09-10 00:49:34 INFO  EmployeesRestAPI:53 - ***********  Checking Status Code **********
+2022-09-10 00:49:34 INFO  EmployeesRestAPI:56 - Status Code is ==>429
+2022-09-10 00:49:34 INFO  EmployeesRestAPI:106 - ***********  Checking Content Encoding**********
+2022-09-10 00:49:34 INFO  EmployeesRestAPI:109 - Content Encoding is==>gzip
+2022-09-10 00:49:34 INFO  EmployeesRestAPI:96 - ***********  Checking Server Type **********
+2022-09-10 00:49:34 INFO  EmployeesRestAPI:99 - Server Type is =>nginx
+2022-09-10 00:49:34 INFO  EmployeesRestAPI:77 - ***********  Checking Status Line **********
+2022-09-10 00:49:34 INFO  EmployeesRestAPI:80 - Status Line is ==>HTTP/1.1 429 Too Many Requests
+2022-09-10 00:49:34 INFO  EmployeesRestAPI:139 - *********  Finished TC001_Get_All_Employees **********
+2022-09-10 00:49:34 INFO  EmployeesRestAPI:34 - *********Started TC002_Get_Single_Employee_Record **********
+2022-09-10 00:49:42 INFO  EmployeesRestAPI:89 - *********  Finished TC002_Get_Single_Employee_Record **********
+2022-09-10 00:49:42 INFO  EmployeesRestAPI:40 - *********Started TC003_Post_Employee_Record **********
+2022-09-10 00:49:48 INFO  EmployeesRestAPI:107 - *********  Finished TC003_Post_Employee_Record **********
+2022-09-10 00:49:48 INFO  EmployeesRestAPI:39 - *********Started TC004_Put_Employee_Record **********
+2022-09-10 00:49:55 INFO  EmployeesRestAPI:107 - *********  Finished TC004_Put_Employee_Record **********
+2022-09-10 00:49:55 INFO  EmployeesRestAPI:35 - *********Started TC005_Delete_Employee_Record **********
